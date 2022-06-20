@@ -9,8 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report. Please review the following requirements before
-        submitting this issue type:
+        Thanks for taking the time to fill out this bug report. Please review the following requirements before submitting this issue type:
 
         1. Please ensure you do not report security vulnerabilities via this method. See our [Security Policy](https://github.com/authelia/authelia/security/policy).
         2. Please try to give as much information as possible for us to be able to reproduce the issue and provide a quick fix.
