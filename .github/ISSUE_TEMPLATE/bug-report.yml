@@ -4,7 +4,7 @@ description: Report a potential bug
 labels:
   - type/potential-bug
   - status/needs-triage
-  - priority/2-normal
+  - priority/4-normal
 body:
   - type: markdown
     attributes:
