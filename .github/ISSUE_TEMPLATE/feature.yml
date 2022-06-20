@@ -4,16 +4,14 @@ description: Submit a Feature for Design which Has Been Submitted as an Idea and
 labels:
   - type/feature
   - status/needs-design
-  - priority/2-normal
+  - priority/4-normal
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature issue. Please review the following requirements before
-        submitting this issue type:
+        Thanks for taking the time to fill out this feature issue. Please review the following requirements before submitting this issue type:
 
-        1. Ensure an [Idea](https://github.com/authelia/authelia/discussions/new?category=ideas) has been created
-           and voted on sufficiently before creating this issue type.
+        1. Ensure an [Idea](https://github.com/authelia/authelia/discussions/new?category=ideas) has been created and voted on sufficiently before creating this issue type.
   - type: dropdown
     id: milestone
     attributes:
@@ -31,7 +29,7 @@ body:
     id: idea-discussion
     attributes:
       label: Discussion Idea Number
-      description: 'The Discussion Number prefixed with # which this feature is linked to'
+      description: 'The Discussion Number prefixed with # which this feature is linked to, create a new [Idea Discussion](https://github.com/authelia/authelia/discussions/new?category=ideas) if one does not exist yet'
       placeholder: '#xxxx'
     validations:
       required: true
