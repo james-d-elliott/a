@@ -12,8 +12,8 @@ body:
         Thanks for taking the time to fill out this feature issue. Please review the following requirements before
         submitting this issue type:
 
-        	1. Ensure an [Idea](https://github.com/authelia/authelia/discussions/new?category=ideas) has been created
-        	   and voted on sufficiently before creating this issue type.
+        1. Ensure an [Idea](https://github.com/authelia/authelia/discussions/new?category=ideas) has been created
+           and voted on sufficiently before creating this issue type.
   - type: dropdown
     id: milestone
     attributes:
