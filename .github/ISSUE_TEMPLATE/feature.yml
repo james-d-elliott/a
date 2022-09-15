@@ -9,30 +9,21 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this feature issue. Please review the following requirements before submitting this issue type:
+        Thanks for taking the time to fill out this feature request. Feature are created as issue for the purpose of tracking the design and implementation of a feature.
 
-        1. Ensure an [Idea](https://github.com/authelia/authelia/discussions/new?category=ideas) has been created and voted on sufficiently before creating this issue type.
-  - type: dropdown
-    id: milestone
-    attributes:
-      label: Suggested Milestone
-      description: What milestone is suggested for this feature?
-      options:
-        - v4.36.0
-        - v4.37.0
-        - v4.38.0
-        - v4.39.0
-        - v5.0.0
-    validations:
-      required: true
+        Please review the following requirements before submitting this issue type:
+
+        1. Ensure 
+        2. Consider creating an [Idea](https://github.com/authelia/authelia/discussions/new?category=ideas) which can be voted on instead if one doesn't exist.
   - type: input
     id: idea-discussion
     attributes:
       label: Discussion Idea Number
-      description: 'The Discussion Number prefixed with # which this feature is linked to, create a new [Idea Discussion](https://github.com/authelia/authelia/discussions/new?category=ideas) if one does not exist yet'
+      description: |
+        The Discussion Number prefixed with # which this feature is linked to, create a new [Idea Discussion](https://github.com/authelia/authelia/discussions/new?category=ideas) if one does not exist yet
       placeholder: '#xxxx'
     validations:
-      required: true
+      required: false
   - type: textarea
     id: description
     attributes:
