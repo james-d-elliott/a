@@ -135,7 +135,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: logs
+    id: logs-other
     attributes:
       label: Logs (Proxy / Application)
       description: Provide complete debug logs for the affected proxy and/or application if available and relevant
