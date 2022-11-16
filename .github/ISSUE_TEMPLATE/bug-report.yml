@@ -119,19 +119,27 @@ body:
     validations:
       required: false
   - type: textarea
+    id: configuration
+    attributes:
+      label: Configuration (Authelia)
+      description: Provide a complete configuration file (the template will automatically put this content in a code block)
+      render: yaml
+    validations:
+      required: false
+  - type: textarea
     id: logs
     attributes:
-      label: Logs
+      label: Logs (Authelia)
       description: Provide complete debug logs (the template will automatically put this content in a code block)
       render: shell
     validations:
       required: true
   - type: textarea
-    id: configuration
+    id: logs
     attributes:
-      label: Configuration
-      description: Provide a complete Authelia configuration file (the template will automatically put this content in a code block)
-      render: yaml
+      label: Logs (Proxy / Application)
+      description: Provide complete debug logs for the affected proxy and/or application if available and relevant
+      render: shell
     validations:
       required: false
   - type: textarea
@@ -153,9 +161,11 @@ body:
           required: true
         - label: I have read the security policy and this bug report is not a security issue or security related issue
           required: true
-        - label: I have either included the configuration or I am sure it's unrelated to configuration
+        - label: I have either included the complete configuration file or I am sure it's unrelated to the configuration
           required: true
         - label: I have provided all of the required information in full with the only alteration being reasonable sanitization in accordance with the [troubleshooting sanitization guidelines](https://www.authelia.com/r/sanitize)
+          required: true
+        - label: I have checked for related proxy or application logs and included them if available
           required: true
         - label: I have checked for related issues and checked the documentation
           required: true
